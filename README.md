@@ -156,7 +156,8 @@ Assuming that the boundary of lane can bes described by
 
 The radius of the curve described by that function is
 ![alt text][curv]
-​​
+
+By knowing the dimensions of a lane we can then also estimate the curvature in the world space instead of just the pixel space.
 
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
