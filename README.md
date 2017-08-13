@@ -104,7 +104,7 @@ I verified that my perspective transform was working as expected by drawing the 
 #### 3. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
 First we will color code an RGB image with different image segmentation techniques.
-To do that we define the function `color_code()` in cell 8 .
+To do that we define the function `color_code()` in cell [8] .
 
 We will create a color coded image based on the following process:
 The red channel is defined by thresholding the input image  using the L channel of HSV colorspace, and the B channel LAB colorspace. The threshold is hardcoded to be 200 and 150 for L and B respectively.
@@ -172,7 +172,7 @@ It uses the function `carview` define in cell [17] to warp to top viw back to th
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./out.mp4)
 
 ---
 
